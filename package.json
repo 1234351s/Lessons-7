@@ -1,0 +1,33 @@
+{
+  "name": "lessons-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1234351s/Lessons-7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1234351s/Lessons-7/issues"
+  },
+  "homepage": "https://github.com/1234351s/Lessons-7#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+,
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.hbs": ["@parcel/transformer-handlebars"]
+  }
+}
+
